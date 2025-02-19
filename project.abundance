@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1739906974648
+                    "ioValue": 1739928713199
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -400,6 +400,21 @@
                 "costUSD": 0,
                 "source": "www.example.com"
             }
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.8366402116402116,
+            "y": 0.7214484679665739,
+            "uniqueID": 1739928713199,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1739906974648
+                }
+            ],
+            "description": "Changes the color of the shape.",
+            "selectedColorIndex": 17
         }
     ],
     "allConnectors": [
@@ -440,9 +455,16 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1739906974648,
+            "ap2ID": 1739928713199
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 1739906974648,
+            "ap1ID": 1739928713199,
             "ap2ID": 1739906552662
         }
     ],
